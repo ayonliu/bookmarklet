@@ -6,4 +6,4 @@ Bookmarklet is a collection of practical bookmarklets, which enables quick acces
 
 Use Ahrefs' backlink checker tool to query the backlinks of the current page.
 
-[ahrefs backlink-checker](javascript:(function(){    var url=location.href;    var url=url.replace(/^(http|https):\/\//i,'');    window.open('https://ahrefs.com/backlink-checker/?input=%27+encodeURIComponent(url))})();)
+https://ayonliu.github.io/bookmarklet
