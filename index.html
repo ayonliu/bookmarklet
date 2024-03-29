@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookmarklet</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Bookmarklet">
+    <meta property="og:url" content="https://ayonliu.github.io/Bookmarklet/">
+    <meta property="og:type" content="website">
+    <meta name="description" property="og:description" content="Bookmarklet is a collection of practical bookmarklets, which enables quick access by simply dragging and dropping it to the bookmark bar.">
+    <meta name="twitter:card" content="summary">
+
+    <style>
+       main { max-width: 38rem; padding: 2rem; margin: auto; font: 16px/1.5 Helvetica, sans-serif; }
+       p { margin: 1.5em 0; }
+       .reveal { background: #e7f3ff; border-radius: 5px; padding: 8px 15px; font-size: 18px; }
+    </style>
+</head>
+<body><main>
+    <h1>Bookmarklet</h1>
+
+    <p>Bookmarklet is a collection of practical bookmarklets, which enables quick access by simply dragging and dropping it to the bookmark bar.</p>
+    <p>To use it, just dragging and dropping the link to the bookmark bar</p>
+  
+    <p>
+      <a class="reveal" href="javascript:(function(){    var url=location.href;    var url=url.replace(/^(http|https):\/\//i,'');    window.open('https://ahrefs.com/backlink-checker/?input=%27+encodeURIComponent(url))})();">ahrefs backlink-checker</a>
+    </p>
+    <p></p>
+    <p><a class="github-button" href="https://github.com/ayonliu/Bookmarklet" data-size="large" data-show-count="true" aria-label="Bookmarklet on GitHub">Star</a></p>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</main></body>
+</html>
